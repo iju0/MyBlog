@@ -34,4 +34,18 @@ public class JsonPlaceHolderAPI
         var response = _client.Execute(_request);
         return JsonConvert.DeserializeObject<List<Album>>(response.Content);
     }
+
+    public List<Comment> GetComments()
+    {
+        _request = new RestRequest("/comments");
+        var response = _client.Execute(_request);
+        return JsonConvert.DeserializeObject<List<Comment>>(response.Content);
+    }
+
+    public List<Photo> GetPhotos()
+    {
+        _request = new RestRequest("/photos");
+        var response = _client.Execute(_request);
+        return JsonConvert.DeserializeObject<List<Photo>>(response.Content);
+    }
 }

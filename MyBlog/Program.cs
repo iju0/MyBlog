@@ -15,6 +15,12 @@ builder.Services.AddScoped<IPostService, PostService>();
 builder.Services.AddScoped<IAlbumRepository, AlbumRepository>();
 builder.Services.AddScoped<IAlbumService, AlbumService>();
 
+builder.Services.AddScoped<ICommentRepository, CommentRepository>();
+builder.Services.AddScoped<ICommentService, CommentService>();
+
+builder.Services.AddScoped<IPhotoRepository, PhotoRepository>();
+builder.Services.AddScoped<IPhotoService, PhotoService>();
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
