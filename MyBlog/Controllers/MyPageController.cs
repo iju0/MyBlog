@@ -5,6 +5,7 @@ using MyBlog.Models;
 
 namespace MyBlog.Controllers;
 
+
 public class MyPageController : UserControllerBase
 {
     private readonly IPostService _postService;

@@ -2,6 +2,7 @@ using BLL;
 using BLL.Interfaces;
 using DAL;
 using DAL.Interfaces;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Unity;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -21,6 +22,8 @@ builder.Services.AddScoped<ICommentService, CommentService>();
 builder.Services.AddScoped<IPhotoRepository, PhotoRepository>();
 builder.Services.AddScoped<IPhotoService, PhotoService>();
 
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie();
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
@@ -39,6 +42,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(
