@@ -4,6 +4,5 @@ namespace BLL.Interfaces;
 
 public interface ILoginService
 {
-    bool Validate();
-    User login(string id, string password);
+    User? login(string id, string password);
 }

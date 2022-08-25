@@ -11,13 +11,8 @@ public class LoginService : ILoginService
     {
         _userRepository = userRepository;
     }
-    
-    public bool Validate()
-    {
-        return false;
-    }
 
-    public User login(string id, string password)
+    public User? login(string id, string password)
     {
         var users = _userRepository.GetUsers();
         var result =

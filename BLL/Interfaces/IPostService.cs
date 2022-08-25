@@ -4,5 +4,5 @@ namespace BLL.Interfaces;
 
 public interface IPostService
 {
-    List<Post> GetPosts();
+    List<Post>? GetPosts();
 }

@@ -4,5 +4,5 @@ namespace BLL.Interfaces;
 
 public interface IAlbumService
 {
-    List<Album> GetAlbums();
+    List<Album>? GetAlbums();
 }

@@ -13,25 +13,44 @@ public class JsonPlaceHolderAPI
     {
         _client = new RestClient("https://jsonplaceholder.typicode.com/");
     }
-    
-    public List<User> GetUsers()
+
+    private T? DeserializeObject<T>(string? value)
+    {
+        return JsonConvert.DeserializeObject<T>(value);
+    }
+
+    private T? Execute<T>(RestRequest restRequest)
+    {
+        return DeserializeObject<T>(_client.Execute(restRequest).Content);
+    }
+
+    public List<User>? GetUsers()
     {
         _request = new RestRequest("/users");
-        var response = _client.Execute(_request);
-        return JsonConvert.DeserializeObject<List<User>>(response.Content);
+        return Execute<List<User>>(_request);
     }
 
-    public List<Post> GetPosts()
+    public List<Post>? GetPosts()
     {
         _request = new RestRequest("/posts");
-        var response = _client.Execute(_request);
-        return JsonConvert.DeserializeObject<List<Post>>(response.Content);
+        return Execute<List<Post>>(_request);
     }
 
-    public List<Album> GetAlbums()
+    public List<Album>? GetAlbums()
     {
         _request = new RestRequest("/albums");
-        var response = _client.Execute(_request);
-        return JsonConvert.DeserializeObject<List<Album>>(response.Content);
+        return Execute<List<Album>>(_request);
+    }
+
+    public List<Comment>? GetComments()
+    {
+        _request = new RestRequest("/comments");
+        return Execute<List<Comment>>(_request);
+    }
+
+    public List<Photo>? GetPhotos()
+    {
+        _request = new RestRequest("/photos");
+        return Execute<List<Photo>>(_request);
     }
 }

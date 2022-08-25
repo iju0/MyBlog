@@ -1,0 +1,31 @@
+﻿@model MyPostDetailViewModel
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<h2>포스트 상세</h2>
+
+<div class="row">
+    <div class="col-md-3">@Model.Post.UserId</div>
+</div>
+<div class="row">
+    <div class="col-md-3">@Model.Post.Title</div>
+</div>
+<div class="row">
+    <div class="col-md-5">@Model.Post.Body</div>
+</div>
+
+
+<h3>댓글</h3>
+@foreach (var item in Model.Comments)
+    {
+        <div class="row">
+            <div class="col-md-3">@item.Id</div>
+            <div class="col-md-3">@item.Body</div>
+            <div class="col-md-3">@item.Email</div>
+            <div class="col-md-3">@item.Name</div>
+        </div>
+    }
+        

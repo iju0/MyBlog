@@ -6,7 +6,7 @@ namespace DAL;
 
 public class PostRepository : IPostRepository
 {
-    public List<Post> GetPosts()
+    public List<Post>? GetPosts()
     {
         var api = new JsonPlaceHolderAPI();
         return api.GetPosts();
