@@ -11,7 +11,7 @@ public class AlbumService : IAlbumService
     {
         _albumRepository = albumRepository;
     }
-    public List<Album> GetAlbums()
+    public List<Album>? GetAlbums()
     {
         return _albumRepository.GetAlbums();
     }

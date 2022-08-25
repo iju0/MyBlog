@@ -12,7 +12,7 @@ public class PostService : IPostService
         _postRepository = postRepository;
     }
     
-    public List<Post> GetPosts()
+    public List<Post>? GetPosts()
     {
         return _postRepository.GetPosts();
     }
