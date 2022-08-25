@@ -3,7 +3,6 @@ using BLL.Interfaces;
 using DAL;
 using DAL.Interfaces;
 using Microsoft.AspNetCore.Authentication.Cookies;
-using Unity;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,6 +22,12 @@ builder.Services.AddScoped<IPhotoRepository, PhotoRepository>();
 builder.Services.AddScoped<IPhotoService, PhotoService>();
 
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie();
+
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.ExpireTimeSpan = TimeSpan.FromMinutes(10);
+    options.AccessDeniedPath = "/Home/Index";
+});
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

@@ -8,19 +8,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e57707cb-63b4-4129-9f95-a8a30008ebe5" name="Changes" comment="로그인 구현">
+    <list default="true" id="e57707cb-63b4-4129-9f95-a8a30008ebe5" name="Changes" comment="코드 리펙터링">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyBlog/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyBlog/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL/AlbumService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/AlbumService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL/Interfaces/IAlbumService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/Interfaces/IAlbumService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL/Interfaces/IPostService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/Interfaces/IPostService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL/PostService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/PostService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL/AlbumRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/AlbumRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL/Apis/JsonPlaceHolderAPI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/Apis/JsonPlaceHolderAPI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL/Interfaces/IAlbumRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/Interfaces/IAlbumRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL/Interfaces/IPostRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/Interfaces/IPostRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL/Interfaces/IUserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/Interfaces/IUserRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL/PostRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/PostRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL/UserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/UserRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBlog/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyBlog/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +24,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/iju0/RiderProjects/MyBlog/DAL/AlbumRepository.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -103,7 +96,7 @@
       <updated>1661339915430</updated>
       <workItem from="1661339917228" duration="632000" />
       <workItem from="1661340613424" duration="10542000" />
-      <workItem from="1661389749707" duration="6758000" />
+      <workItem from="1661389749707" duration="7640000" />
     </task>
     <task id="LOCAL-00001" summary="앨범상세, 포스팅상세 구현">
       <created>1661393317761</created>
@@ -119,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661395996077</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="코드 리펙터링">
+      <created>1661396595995</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661396595995</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +144,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="앨범상세, 포스팅상세 구현" />
     <MESSAGE value="로그인 구현" />
-    <option name="LAST_COMMIT_MESSAGE" value="로그인 구현" />
+    <MESSAGE value="코드 리펙터링" />
+    <option name="LAST_COMMIT_MESSAGE" value="코드 리펙터링" />
   </component>
 </project>
