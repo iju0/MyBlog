@@ -1,14 +1,14 @@
 @model List<Models.Album>
 
-<div class="row">
     
-        @foreach (var item in Model)
-        {
+@foreach (var item in Model)
+{
+        <div class="row">
                 <div class="col-md-5">
-                        @item.Id
-                        @item.Title
-                        @item.UserId
+                        <a class="nav-link text-blue" asp-area="" asp-controller="MyPage" asp-action="MyPhotos" asp-route-id="@item.Id">
+                                @item.Title        
+                        </a>
                 </div>
-        }
+        </div>
+}
         
-</div>

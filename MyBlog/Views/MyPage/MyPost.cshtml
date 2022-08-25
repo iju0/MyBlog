@@ -1,15 +1,14 @@
 @model List<Models.Post>
 
 
-<div class="row">
     
-        @foreach (var item in Model)
-        {
-                <div class="col-md-5">
-                        @item.Id
-                        @item.Title
-                        @item.Body
-                </div>    
-        }
-        
+@foreach (var item in Model)
+{
+<div class="row">
+        <div class="col-md-5">
+                <a class="nav-link text-blue" asp-area="" asp-controller="MyPage" asp-action="MyPostDetail" asp-route-id="@item.Id">
+                        @item.Title        
+                </a>
+        </div>
 </div>
+}

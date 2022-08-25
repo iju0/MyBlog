@@ -9,38 +9,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e57707cb-63b4-4129-9f95-a8a30008ebe5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyBlog/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyBlog/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyBlog/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyBlog/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BLL/AlbumService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BLL/Interfaces/IAlbumService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BLL/Interfaces/ILoginService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BLL/Interfaces/IPostService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BLL/PostService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL/AlbumRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL/Apis/JsonPlaceHolderAPI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL/DAL.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL/Interfaces/IAlbumRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL/Interfaces/IPostRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL/Interfaces/IUserRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL/PostRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL/UserRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/Entities/Address.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/Entities/Album.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/Entities/Comment.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/Entities/Company.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/Entities/Coordinates.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/Entities/Photo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/Entities/Post.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/Entities/User.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/Models.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/Attributes/LoginFilterAttribute.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/Common/UserControllerBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/Controllers/MyPageController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/Views/MyPage/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/Views/MyPage/MyAlbum.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBlog/Views/MyPage/MyPost.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyBlog/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyBlog/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBlog/Views/MyPage/MyAlbum.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/MyBlog/Views/MyPage/MyAlbum.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBlog/Views/MyPage/MyPost.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/MyBlog/Views/MyPage/MyPost.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBlog/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/MyBlog/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBlog/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyBlog/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +30,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/dcedbc87754f258c5cbaf81957c25226a51ba1fd897ccb6a3d357ace4202/AuthorizeAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c79faaa49a6f2af6b549e7ec5cbb9ef65d952bfd80a649cbb68672514498981e/AnchorTagHelper.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/beeb19975adaa3b371bd8eddef76f777b234c63a6f48b79e8cc6596d5c64/RestClient.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/bebd253e21dcf766929bfdfd74615bfe46e6e1693b289273dbdb82152893/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -74,6 +48,10 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="AzureAzuriteCertKeyPath" value="" />
+    <property name="AzureAzuriteCertPassword" value="" />
+    <property name="AzureAzuriteCertPath" value="" />
+    <property name="AzureAzuriteLocation" value="" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -83,10 +61,78 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="HotReloadSettingsPage" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Azurite" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.MyBlog">
+  <component name="RunManager" selected="Azure - Publish Web App.Publish MyBlog to Azure (1)">
+    <configuration name="Publish MyBlog to Azure (1)" type="AzureDotNetWebAppPublish" factoryName="Azure Web App">
+      <option name="AZURE_WEB_APP_PROJECT" value="$PROJECT_DIR$/MyBlog/MyBlog.csproj" />
+      <option name="AZURE_WEB_APP_SUBSCRIPTION_ID" value="4b27e7e7-42f9-4618-82d7-83de52103e0e" />
+      <option name="AZURE_WEB_APP_IS_CREATE_APP" value="0" />
+      <option name="AZURE_WEB_APP_ID" value="/subscriptions/4b27e7e7-42f9-4618-82d7-83de52103e0e/resourceGroups/bit88-2_group/providers/Microsoft.Web/sites/bit88-2" />
+      <option name="AZURE_WEB_APP_NAME" value="" />
+      <option name="AZURE_WEB_APP_IS_CREATE_RESOURCE_GROUP" value="0" />
+      <option name="AZURE_WEB_APP_RESOURCE_GROUP_NAME" value="" />
+      <option name="AZURE_WEB_APP_OPERATING_SYSTEM" value="WINDOWS" />
+      <option name="AZURE_WEB_APP_IS_CREATE_APP_SERVICE_PLAN" value="0" />
+      <option name="AZURE_WEB_APP_SERVICE_PLAN_ID" value="" />
+      <option name="AZURE_WEB_APP_SERVICE_PLAN_NAME" value="" />
+      <option name="AZURE_WEB_APP_LOCATION" value="eastus" />
+      <option name="AZURE_WEB_APP_PRICING_TIER" value="S1" />
+      <option name="AZURE_WEB_APP_NET_FRAMEWORK" value="4.7" />
+      <option name="AZURE_WEB_APP_NET_CORE_RUNTIME" value="DOTNETCORE 6.0" />
+      <option name="AZURE_WEB_APP_IS_DEPLOY_TO_SLOT" value="0" />
+      <option name="AZURE_WEB_APP_SLOT_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_SUBSCRIPTION_ID" value="4b27e7e7-42f9-4618-82d7-83de52103e0e" />
+      <option name="AZURE_SQL_DATABASE_IS_ENABLED" value="0" />
+      <option name="AZURE_SQL_DATABASE_CONNECTION_STRING_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_CREATE" value="0" />
+      <option name="AZURE_SQL_DATABASE_ID" value="" />
+      <option name="AZURE_SQL_DATABASE_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_CREATE_RESOURCE_GROUP" value="0" />
+      <option name="AZURE_SQL_DATABASE_RESOURCE_GROUP_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_CREATE_SQL_SERVER" value="0" />
+      <option name="AZURE_SQL_DATABASE_SQL_SERVER_ID" value="" />
+      <option name="AZURE_SQL_DATABASE_SQL_SERVER_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_SQL_SERVER_ADMIN_LOGIN" value="N/A" />
+      <option name="AZURE_SQL_DATABASE_LOCATION" value="eastus" />
+      <option name="AZURE_SQL_DATABASE_COLLATION" value="SQL_Latin1_General_CP1_CI_AS" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish MyBlog to Azure" type="AzureDotNetWebAppPublish" factoryName="Azure Web App">
+      <option name="AZURE_WEB_APP_PROJECT" value="$PROJECT_DIR$/MyBlog/MyBlog.csproj" />
+      <option name="AZURE_WEB_APP_SUBSCRIPTION_ID" value="4b27e7e7-42f9-4618-82d7-83de52103e0e" />
+      <option name="AZURE_WEB_APP_IS_CREATE_APP" value="0" />
+      <option name="AZURE_WEB_APP_ID" value="/subscriptions/4b27e7e7-42f9-4618-82d7-83de52103e0e/resourceGroups/bit88-2_group/providers/Microsoft.Web/sites/bit88-2" />
+      <option name="AZURE_WEB_APP_NAME" value="" />
+      <option name="AZURE_WEB_APP_IS_CREATE_RESOURCE_GROUP" value="0" />
+      <option name="AZURE_WEB_APP_RESOURCE_GROUP_NAME" value="" />
+      <option name="AZURE_WEB_APP_OPERATING_SYSTEM" value="WINDOWS" />
+      <option name="AZURE_WEB_APP_IS_CREATE_APP_SERVICE_PLAN" value="0" />
+      <option name="AZURE_WEB_APP_SERVICE_PLAN_ID" value="" />
+      <option name="AZURE_WEB_APP_SERVICE_PLAN_NAME" value="" />
+      <option name="AZURE_WEB_APP_LOCATION" value="eastus" />
+      <option name="AZURE_WEB_APP_PRICING_TIER" value="S1" />
+      <option name="AZURE_WEB_APP_NET_FRAMEWORK" value="4.7" />
+      <option name="AZURE_WEB_APP_NET_CORE_RUNTIME" value="DOTNETCORE 6.0" />
+      <option name="AZURE_WEB_APP_IS_DEPLOY_TO_SLOT" value="0" />
+      <option name="AZURE_WEB_APP_SLOT_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_SUBSCRIPTION_ID" value="4b27e7e7-42f9-4618-82d7-83de52103e0e" />
+      <option name="AZURE_SQL_DATABASE_IS_ENABLED" value="0" />
+      <option name="AZURE_SQL_DATABASE_CONNECTION_STRING_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_CREATE" value="0" />
+      <option name="AZURE_SQL_DATABASE_ID" value="" />
+      <option name="AZURE_SQL_DATABASE_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_CREATE_RESOURCE_GROUP" value="0" />
+      <option name="AZURE_SQL_DATABASE_RESOURCE_GROUP_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_CREATE_SQL_SERVER" value="0" />
+      <option name="AZURE_SQL_DATABASE_SQL_SERVER_ID" value="" />
+      <option name="AZURE_SQL_DATABASE_SQL_SERVER_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_SQL_SERVER_ADMIN_LOGIN" value="N/A" />
+      <option name="AZURE_SQL_DATABASE_LOCATION" value="eastus" />
+      <option name="AZURE_SQL_DATABASE_COLLATION" value="SQL_Latin1_General_CP1_CI_AS" />
+      <method v="2" />
+    </configuration>
     <configuration name="MyBlog" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/MyBlog/MyBlog.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net6.0" />
@@ -128,6 +174,9 @@
       <updated>1661339915430</updated>
       <workItem from="1661339917228" duration="632000" />
       <workItem from="1661340613424" duration="10542000" />
+      <workItem from="1661434379585" duration="1255000" />
+      <workItem from="1661435651731" duration="1066000" />
+      <workItem from="1661436741784" duration="933000" />
     </task>
     <servers />
   </component>
